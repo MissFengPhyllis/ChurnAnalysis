@@ -41,15 +41,26 @@ public class AnalysisByUserCount {
                 .sum(1);
 
         resultSet.print();
-        resultSet.writeAsCsv("C:\\Edrive\\ELTE\\streamProject\\TransferHistoryAnalysis\\src\\main\\resources\\flatMapResult.csv");
+//        resultSet.writeAsCsv("C:\\Edrive\\ELTE\\streamProject\\TransferHistoryAnalysis\\src\\main\\resources\\flatMapResult.csv");
+        resultSet.writeAsCsv("C:\\Edrive\\ELTE\\streamProject\\TransferHistoryAnalysis\\src\\main\\resources\\flatMapResult_date.csv");
         env.execute();
     }
+
+//    public static class MyFlatMapper implements FlatMapFunction<String, Tuple2<String,Integer>> {
+//        @Override
+//        public void flatMap(String s, Collector<Tuple2<String,Integer>> collector) throws Exception {
+//            String[] Fileds = s.split(",");
+//            String time = Fileds[5].substring(0,7);
+//            //get each month's transfer counts
+//            collector.collect(new Tuple2<>(time,1));
+//        }
+//    }
 
     public static class MyFlatMapper implements FlatMapFunction<String, Tuple2<String,Integer>> {
         @Override
         public void flatMap(String s, Collector<Tuple2<String,Integer>> collector) throws Exception {
             String[] Fileds = s.split(",");
-            String time = Fileds[5].substring(0,7);
+            String time = Fileds[5];
             //get each month's transfer counts
             collector.collect(new Tuple2<>(time,1));
         }

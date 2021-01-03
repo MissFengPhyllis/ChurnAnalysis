@@ -2,22 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7b4cfc1-c8a9-499e-9978-c4d15a0f769a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/java/com/phyllis/transfer_analysis/AnalysisByUserCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/java/com/phyllis/transfer_analysis/flink_elasticSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/resources/flatMapResult.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/resources/transfer_history.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/resources/.ipynb_checkpoints/visualization-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/resources/flatMapResult_date.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/resources/visualization.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/resources/visualization.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/java/com/phyllis/transfer_analysis/AnalysisChurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/java/com/phyllis/transfer_analysis/AnalysisChurn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/java/com/phyllis/transferhistory_analysis/UserChurn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/java/com/phyllis/transferhistory_analysis/beans/UserChurnAcc.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/java/com/phyllis/transferhistory_analysis/beans/UserChurnAcc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transfer_analysis/AnalysisChurn$MyFlatMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transfer_analysis/AnalysisChurn$MyFlatMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transfer_analysis/AnalysisChurn.class" beforeDir="false" afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transfer_analysis/AnalysisChurn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transferhistory_analysis/UserChurn$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transferhistory_analysis/UserChurn$UserChurnAgg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transferhistory_analysis/UserChurn$WindowUserChurnResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transferhistory_analysis/UserChurn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transferhistory_analysis/beans/UserChurnAcc.class" beforeDir="false" afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transferhistory_analysis/beans/UserChurnAcc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/java/com/phyllis/transfer_analysis/AnalysisByUserCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/java/com/phyllis/transfer_analysis/AnalysisByUserCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/java/com/phyllis/transfer_analysis/flink_elasticSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/java/com/phyllis/transfer_analysis/flink_elasticSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/java/com/phyllis/transferhistory_analysis/beans/UserBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/java/com/phyllis/transferhistory_analysis/beans/UserBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transfer_analysis/AnalysisByUserCount$MyFlatMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transfer_analysis/AnalysisByUserCount$MyFlatMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transfer_analysis/AnalysisByUserCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transfer_analysis/AnalysisByUserCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transfer_analysis/flink_elasticSearch$MyEsSinkFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transfer_analysis/flink_elasticSearch$MyEsSinkFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transfer_analysis/flink_elasticSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transfer_analysis/flink_elasticSearch.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +149,7 @@
       <workItem from="1609290206549" duration="63000" />
       <workItem from="1609290289033" duration="4037000" />
       <workItem from="1609612081292" duration="53000" />
-      <workItem from="1609612450771" duration="16922000" />
+      <workItem from="1609612450771" duration="22548000" />
     </task>
     <servers />
   </component>
@@ -176,22 +172,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1609612125648" />
-    <state width="1237" height="12" key="GridCell.Tab.0.bottom" timestamp="1609690493603">
+    <state width="1237" height="34" key="GridCell.Tab.0.bottom" timestamp="1609700027031">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="12" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1609690493603" />
-    <state width="1237" height="12" key="GridCell.Tab.0.center" timestamp="1609690493603">
+    <state width="1237" height="34" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1609700027031" />
+    <state width="1237" height="34" key="GridCell.Tab.0.center" timestamp="1609700027031">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="12" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1609690493603" />
-    <state width="1237" height="12" key="GridCell.Tab.0.left" timestamp="1609690493603">
+    <state width="1237" height="34" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1609700027031" />
+    <state width="1237" height="34" key="GridCell.Tab.0.left" timestamp="1609700027031">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="12" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1609690493603" />
-    <state width="1237" height="12" key="GridCell.Tab.0.right" timestamp="1609690493603">
+    <state width="1237" height="34" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1609700027031" />
+    <state width="1237" height="34" key="GridCell.Tab.0.right" timestamp="1609700027031">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="12" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1609690493603" />
+    <state width="1237" height="34" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1609700027031" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1609553830286">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

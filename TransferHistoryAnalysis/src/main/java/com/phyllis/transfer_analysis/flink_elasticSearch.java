@@ -20,7 +20,7 @@ public class flink_elasticSearch {
         env.setParallelism(1);
 
         //读取数据建 DataStream
-        DataStream<String> inputStream = env.readTextFile("C:\\Edrive\\ELTE\\streamProject\\TransferHistoryAnalysis\\src\\main\\resources\\flatMapResult.csv");
+        DataStream<String> inputStream = env.readTextFile("C:\\Edrive\\ELTE\\streamProject\\TransferHistoryAnalysis\\src\\main\\resources\\flatMapResult_date.csv");
         DataStream<UserChurnAcc> dataStream = inputStream.map(line->{
            String[] fields = line.split(",");
            return new UserChurnAcc(fields[0],new Long(fields[1]));
@@ -38,11 +38,11 @@ public class flink_elasticSearch {
         public void process(UserChurnAcc userChurnAcc, RuntimeContext runtimeContext, RequestIndexer requestIndexer) {
             //define write datasource
             HashMap<String,String> dataSource = new HashMap<>();
-            dataSource.put("churnDate",userChurnAcc.getChurnDates());
+            dataSource.put("churnDate",userChurnAcc.getChurnDates().toString());
             dataSource.put("currentNumber",userChurnAcc.getChurnNumber().toString());
         //create requests,as a commend to write into ES
             IndexRequest indexRequest = Requests.indexRequest()
-                    .index("churn")
+                    .index("churn_date")
                     .type("readingdata")
                     .source(dataSource);
 

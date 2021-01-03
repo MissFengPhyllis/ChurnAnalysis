@@ -3,7 +3,7 @@ package com.phyllis.transferhistory_analysis.beans;
 import java.util.Date;
 
 public class UserBehavior {
-    //定义私有属性
+    //
     private Long transferId;
     private Long partyId;
     private Long valueDate;
