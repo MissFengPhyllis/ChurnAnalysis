@@ -7,6 +7,7 @@ import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.api.java.tuple.Tuple;
 import org.apache.flink.api.java.tuple.Tuple2;
+import org.apache.flink.api.java.tuple.Tuple3;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.datastream.KeyedStream;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
@@ -29,7 +30,7 @@ public class AnalysisChurn {
 //                return new UserBehavior(new Long(fields[0]),new Long(fields[1]),new Long(fields[2]));
 //            }
 //        });
-//           // 必须分组
+//           // group
 //        KeyedStream<UserBehavior, Tuple> keyedStream = dataStream.keyBy("valueDate");
 //        //滚动聚合
 //        DataStream<UserBehavior> resultStream = keyedStream.sum("partyId");
@@ -41,12 +42,14 @@ public class AnalysisChurn {
 //        env.execute();
     }
 
-    public static class MyFlatMapper implements FlatMapFunction<String, Tuple2<String,Integer>>{
+    public static class MyFlatMapper implements FlatMapFunction<String, Tuple2<String,Integer>> {
         @Override
         public void flatMap(String s, Collector<Tuple2<String, Integer>> collector) throws Exception {
             String[] Fileds = s.split(",");
-            String time = Fileds[5];
-           collector.collect(new Tuple2<>(time,1));
+//            String time = Fileds[5];
+            String time = Fileds[5].substring(0,4);
+
+            collector.collect(new Tuple2<>(time,1));
         }
     }
 }

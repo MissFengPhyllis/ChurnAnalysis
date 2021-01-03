@@ -3,33 +3,23 @@ package com.phyllis.transferhistory_analysis.beans;
 import java.util.Date;
 
 public class UserChurnAcc {
-    private Long valueDate;
-    private Long currentNumber;
+    private String churnDates;
     private Long churnNumber;
 
     public UserChurnAcc() {
     }
 
-    public UserChurnAcc(Long valueDate, Long currentNumber, Long churnNumber) {
-        this.valueDate = valueDate;
-        this.currentNumber = currentNumber;
+    public UserChurnAcc(String churnDates, Long churnNumber) {
+        this.churnDates = churnDates;
         this.churnNumber = churnNumber;
     }
 
-    public Long getValueDate() {
-        return valueDate;
+    public String getChurnDates() {
+        return churnDates;
     }
 
-    public void setValueDate(Long valueDate) {
-        this.valueDate = valueDate;
-    }
-
-    public Long getCurrentNumber() {
-        return currentNumber;
-    }
-
-    public void setCurrentNumber(Long currentNumber) {
-        this.currentNumber = currentNumber;
+    public void setChurnDates(String churnDates) {
+        this.churnDates = churnDates;
     }
 
     public Long getChurnNumber() {
@@ -42,9 +32,8 @@ public class UserChurnAcc {
 
     @Override
     public String toString() {
-        return "UserChurn{" +
-                "valueDate=" + valueDate +
-                ", currentNumber=" + currentNumber +
+        return "UserChurnAcc{" +
+                "churnDates='" + churnDates + '\'' +
                 ", churnNumber=" + churnNumber +
                 '}';
     }

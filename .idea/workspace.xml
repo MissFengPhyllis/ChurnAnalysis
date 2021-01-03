@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7b4cfc1-c8a9-499e-9978-c4d15a0f769a" name="Default Changelist" comment="" />
+    <list default="true" id="d7b4cfc1-c8a9-499e-9978-c4d15a0f769a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/java/com/phyllis/transfer_analysis/AnalysisByUserCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/java/com/phyllis/transfer_analysis/flink_elasticSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/resources/flatMapResult.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/resources/transfer_history.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/java/com/phyllis/transfer_analysis/AnalysisChurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/java/com/phyllis/transfer_analysis/AnalysisChurn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/java/com/phyllis/transferhistory_analysis/UserChurn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/java/com/phyllis/transferhistory_analysis/beans/UserChurnAcc.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/src/main/java/com/phyllis/transferhistory_analysis/beans/UserChurnAcc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transfer_analysis/AnalysisChurn$MyFlatMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transfer_analysis/AnalysisChurn$MyFlatMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transfer_analysis/AnalysisChurn.class" beforeDir="false" afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transfer_analysis/AnalysisChurn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transferhistory_analysis/UserChurn$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transferhistory_analysis/UserChurn$UserChurnAgg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transferhistory_analysis/UserChurn$WindowUserChurnResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transferhistory_analysis/UserChurn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transferhistory_analysis/beans/UserChurnAcc.class" beforeDir="false" afterPath="$PROJECT_DIR$/TransferHistoryAnalysis/target/classes/com/phyllis/transferhistory_analysis/beans/UserChurnAcc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +31,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,24 +42,41 @@
     </option>
   </component>
   <component name="ProjectId" id="1m6k3EcFdaHD72XLljZRYvJB2y0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../stream mining/anomalyDetection/AnomalyDetection/pom.xml" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Edrive\ELTE\streamProject\TransferHistoryAnalysis\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnalysisChurn">
+  <component name="RunManager" selected="Application.flink_elasticSearch">
+    <configuration name="AnalysisByUserCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.phyllis.transfer_analysis.AnalysisByUserCount" />
+      <module name="TransferHistoryAnalysis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.phyllis.transfer_analysis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AnalysisChurn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.phyllis.transfer_analysis.AnalysisChurn" />
       <module name="TransferHistoryAnalysis" />
@@ -66,8 +103,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="flink_elasticSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.phyllis.transfer_analysis.flink_elasticSearch" />
+      <module name="TransferHistoryAnalysis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.phyllis.transfer_analysis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.flink_elasticSearch" />
+        <item itemvalue="Application.AnalysisByUserCount" />
         <item itemvalue="Application.AnalysisChurn" />
         <item itemvalue="Application.UserChurn" />
       </list>
@@ -99,49 +151,62 @@
       <workItem from="1609204369471" duration="855000" />
       <workItem from="1609290011778" duration="180000" />
       <workItem from="1609290206549" duration="63000" />
-      <workItem from="1609290289033" duration="2293000" />
+      <workItem from="1609290289033" duration="4037000" />
+      <workItem from="1609612081292" duration="53000" />
+      <workItem from="1609612450771" duration="16922000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1608837432716">
+    <state x="233" y="0" key="#Notifications" timestamp="1609553711141">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1608837432716" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1609292107269">
+    <state x="233" y="0" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1609553711141" />
+    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1609689352219">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1609292107269" />
-    <state width="1202" height="162" key="GridCell.Tab.0.bottom" timestamp="1609206290014">
+    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1609689352219" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1609612125648">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1609206290014" />
-    <state width="1202" height="162" key="GridCell.Tab.0.center" timestamp="1609206290014">
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1609612125648" />
+    <state width="1237" height="12" key="GridCell.Tab.0.bottom" timestamp="1609690493603">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1609206290014" />
-    <state width="1202" height="162" key="GridCell.Tab.0.left" timestamp="1609206290014">
+    <state width="1237" height="12" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1609690493603" />
+    <state width="1237" height="12" key="GridCell.Tab.0.center" timestamp="1609690493603">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1609206290014" />
-    <state width="1202" height="162" key="GridCell.Tab.0.right" timestamp="1609206290014">
+    <state width="1237" height="12" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1609690493603" />
+    <state width="1237" height="12" key="GridCell.Tab.0.left" timestamp="1609690493603">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1609206290014" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1609290253524">
+    <state width="1237" height="12" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1609690493603" />
+    <state width="1237" height="12" key="GridCell.Tab.0.right" timestamp="1609690493603">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1609290253524" />
-    <state x="324" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1609290288798">
+    <state width="1237" height="12" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1609690493603" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1609553830286">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="324" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1609290288798" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1609553830286" />
+    <state x="324" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1609612106049">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="324" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1609612106049" />
     <state x="28" y="35" key="new project wizard" timestamp="1608821334439">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="28" y="35" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1608821334439" />
+    <state x="297" y="153" key="run.anything.popup" timestamp="1609660322348">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="153" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1609660322348" />
   </component>
 </project>
