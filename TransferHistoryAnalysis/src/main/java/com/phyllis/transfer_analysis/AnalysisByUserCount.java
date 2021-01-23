@@ -60,7 +60,7 @@ public class AnalysisByUserCount {
         @Override
         public void flatMap(String s, Collector<Tuple2<String,Integer>> collector) throws Exception {
             String[] Fileds = s.split(",");
-            String time = Fileds[5];
+            String time = Fileds[5].substring(0,7);
             //get each month's transfer counts
             collector.collect(new Tuple2<>(time,1));
         }

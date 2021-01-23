@@ -13,6 +13,7 @@ import org.elasticsearch.client.Requests;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 
 public class flink_elasticSearch {
     public static void main(String[] args) throws Exception{
@@ -37,14 +38,21 @@ public class flink_elasticSearch {
         @Override
         public void process(UserChurnAcc userChurnAcc, RuntimeContext runtimeContext, RequestIndexer requestIndexer) {
             //define write datasource
-            HashMap<String,String> dataSource = new HashMap<>();
-            dataSource.put("churnDate",userChurnAcc.getChurnDates().toString());
-            dataSource.put("currentNumber",userChurnAcc.getChurnNumber().toString());
+            Map<String,Object> dataSource = new HashMap<>();
+            HashMap<String,String> dataSource1= new HashMap<>();
+            HashMap<String,Long> dataSource2= new HashMap<>();
+            dataSource.put("churnDate",userChurnAcc.getChurnDates());
+
+//            dataSource2.put(userChurnAcc.getChurnDates(), userChurnAcc.getChurnNumber());
+//            print(userChurnAcc.getChurnDates())
+            dataSource.put("currentNumber", userChurnAcc.getChurnNumber());
         //create requests,as a commend to write into ES
             IndexRequest indexRequest = Requests.indexRequest()
-                    .index("churn_date")
+                    .index("churn_date2")
                     .type("readingdata")
-                    .source(dataSource);
+                    .source(dataSource)
+//                    .source(dataSource2)
+                    ;
 
             //use index to send request
             requestIndexer.add(indexRequest);

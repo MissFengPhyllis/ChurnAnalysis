@@ -1,7 +1,5 @@
 package com.phyllis.transferhistory_analysis.beans;
 
-import java.util.Date;
-
 public class UserChurnAcc {
     private String churnDates;
     private Long churnNumber;
